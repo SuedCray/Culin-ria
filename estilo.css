@@ -1,0 +1,134 @@
+body {
+    background-image: url(sitee.jpeg);
+    object-fit: cover;
+}
+
+#center {
+    text-align: center;
+}
+
+#center img {
+    width: 250px;
+    height: 250px
+}
+
+.button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    height: 40px;
+    width: 90px;
+    border-style: solid;
+}
+
+#form {
+    width: 800px;
+    height: 350px;
+    background-color: rgba(145, 255, 0, 0.925);
+    position: relative;
+    right: -270px;
+    font-family: 'Galada', cursive;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Galada', cursive;
+}
+
+h1 {
+    color: darkorange
+}
+
+#AA {
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    right: -550px;
+    margin-top: -40px;
+}
+
+ul a {
+    color: darkorange
+}
+
+#BB:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 100px;
+}
+
+#BB:active:active {
+    transform: translateX(0);
+    box-shadow: 0 20px 50px;
+}
+
+#BB_button {
+    background-color: rgb(199, 107, 107);
+    padding: 10px 40px;
+    border-radius: 70px;
+    display: inline-block;
+    animation-name: todown;
+    animation-duration: 5s;
+}
+
+#CC:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 100px;
+}
+
+#CC:active:active {
+    transform: translateX(0);
+    box-shadow: 0 20px 50px;
+}
+
+#CC_button {
+    background-color: rgb(199, 107, 107);
+    padding: 10px 40px;
+    border-radius: 70px;
+    display: inline-block;
+    animation-name: todown;
+    animation-duration: 5s;
+}
+
+#form img {
+    width: 45.5%;
+    display: inline;
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider>.slider-content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.slider>.slider-content>.slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider>input:nth-child(1):checked~.slider-content {
+    transform: translateX(0%);
+}
+
+.slider>input:nth-child(2):checked~.slider-content {
+    transform: translateX(-100%);
+}
+
+details {
+    width: 90px;
+    height: 20px;
+    background-color: darkorange;
+    position: relative;
+    right: 500px;
+    top: -33px;
+    font-family: 'Galada', cursive;
+}
